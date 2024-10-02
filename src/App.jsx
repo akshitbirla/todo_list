@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Inputcontainer from "./component/InputContainer";
+import InputContainer from "./component/InputContainer";
 import TodoContainer from "./component/TodoContainer";
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
     <main>
       <h1>To-do List</h1>
 
-      <Inputcontainer
+      <InputContainer
         inputVal={inputVal}
         writeTodo={writeTodo}
         addTodo={addTodo}
