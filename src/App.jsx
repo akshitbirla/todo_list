@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Inputcontainer from "./component/Inputcontainer";
+import Inputcontainer from "./component/InputContainer";
 import TodoContainer from "./component/TodoContainer";
 
 function App() {
